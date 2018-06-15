@@ -1,5 +1,5 @@
-var t1=a=process.argv[2];
-var t2=a=process.argv[3];
+var t1=process.argv[2];
+var t2=process.argv[3];
 
 if (t1+t2>3600){
     process.stdout.write(Math.floor((t1+t2)/3600) + ' час '+ ((t1+t2)%60)%60 + ' минут '+(t1+t2)%60 + ' секунд');
