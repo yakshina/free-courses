@@ -1,6 +1,6 @@
-var d = a=process.argv[2];
-var m = a=process.argv[3];
-var y = a=process.argv[4];
+var d = process.argv[2];
+var m = process.argv[3];
+var y = process.argv[4];
 var n = String(m);
 if((y%4==0)&&(y%100!==0)||(y%400==0))
 {switch (n) 
