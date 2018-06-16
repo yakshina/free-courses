@@ -3,7 +3,7 @@ var m = process.argv[3];
 var y = process.argv[4];
 var n = '';
 n = n + m;
-var k=0;
+var k=180;
 if((y%4==0)&&(y%100!==0)||(y%400==0))
 {switch (n) 
     {
@@ -65,7 +65,7 @@ break;
 case 'июня':
 k=30-d+184;
 break;
-case '7':
+case 'июля':
 k=31-d+153;
 break;
 case 'августа':
